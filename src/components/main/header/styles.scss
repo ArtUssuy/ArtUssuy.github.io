@@ -1,0 +1,30 @@
+@import "./../../../styles/fonts";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  padding: 10px 40px;
+  box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+  .projects-wrapper {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title-wrapper {
+    h1 {
+      font-family: "Calibri Bold";
+      text-transform: uppercase;
+      font-size: 26px;
+      letter-spacing: 4px;
+    }
+  }
+  .search-wrapper {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

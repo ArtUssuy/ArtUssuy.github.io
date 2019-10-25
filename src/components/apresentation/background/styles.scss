@@ -1,0 +1,48 @@
+section {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: opacityAndScale;
+    animation-play-state: running;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes opacityAndScale {
+  25% {
+    // background-image: url("./../../../medias/backgrounds/bikecheck-1.jpg");
+    background-image: url("http://www.mikiyakobayashi.com/img001.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  50% {
+    // background-image: url("./../../../medias/backgrounds/bikecheck-2.jpg");
+    background-image: url("http://www.mikiyakobayashi.com/upload/YAMANAMI_4260WW.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  75% {
+    // background-image: url("./../../../medias/backgrounds/bikecheck-3.jpg");
+    background-image: url("http://www.mikiyakobayashi.com/upload/UDGW2_103_DC91803_WW.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  100% {
+    // background-image: url("./../../../medias/backgrounds/bikecheck-4.jpg");
+    background-image: url("http://www.mikiyakobayashi.com/akc_4120w.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
