@@ -4,7 +4,7 @@ import "./styles.scss";
 const Titles = () => {
   return (
     <>
-      <div>
+      <div className="titles-wrapper">
         <ul id="title">
           <li>A</li>
           <li>R</li>
