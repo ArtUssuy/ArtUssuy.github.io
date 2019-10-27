@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Options } from "./../templates";
+import { Options } from "../templates";
 import { FaSearch } from "react-icons/fa";
 
 const RightMenu = () => {

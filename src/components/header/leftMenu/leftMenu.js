@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Options } from "./../templates";
+import { Options } from "../templates";
 import { OpacScreen } from "./styles";
 import "./styles.scss";
 
