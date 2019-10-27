@@ -13,5 +13,8 @@ export default createGlobalStyle`
     }
     ul {
         list-style: none;
+        li {
+            cursor: pointer;
+        }
     }
 `;

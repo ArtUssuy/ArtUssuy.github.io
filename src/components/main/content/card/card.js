@@ -1,10 +1,21 @@
 import React from 'react';
-import { Container }  from "./styles";
+import { Container, Background, Info }  from "./styles";
 
-const Card = ({image}) => {
+const Card = ({bike}) => {
 
     return (
-        <Container className="card" style={{backgroundImage: `url(${image})`}} />
+        <Container>
+            <Background style={{backgroundImage: `url(${bike.photo})`}} />
+            <Info>
+                <ul>
+                    <li>Frame: {bike.frame}</li>
+                    <li>Fork: {bike.fork}</li>
+                    <li>Rims: {bike.rims}</li>
+                    <li>Hubs: {bike.hubs}</li>
+                </ul>
+            </Info>
+        </Container>
+
     )
 }
 
