@@ -19,7 +19,6 @@ export const Background = styled.div`
     background-position: center;
     transform: scale(1);
     transition: all .5s;
-
 `;
 
 export const Info = styled.div`
