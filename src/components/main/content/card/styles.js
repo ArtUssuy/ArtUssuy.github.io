@@ -5,7 +5,7 @@ export const Container = styled.div`
     overflow: hidden; 
     width: 400px;
     height: 400px;
-    z-index: 2;
+    cursor: pointer;
     :hover div, div div{
         transform: scale(1.2);
         opacity: 1;
