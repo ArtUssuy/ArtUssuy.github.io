@@ -9,6 +9,5 @@ export const OpacScreen = styled.div`
   top: 82.5px;
   background: rgba(0, 0, 0, 0.5);
   transition: all 0.7s;
-  opacity: 0;
   z-index: -2;
 `;
