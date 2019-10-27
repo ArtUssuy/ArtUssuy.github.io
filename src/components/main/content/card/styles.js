@@ -37,9 +37,6 @@ export const Info = styled.div`
     ul {
         li {
             color: #FFF;
-            font-family: "Calibri Regular";
-            font-size: 20px;
-            margin-top: 10px;
         }
     }
 

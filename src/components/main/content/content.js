@@ -31,7 +31,7 @@ const Content = () => {
             photo: "https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-9/74230406_10222231352075961_5748497624692948992_n.jpg?_nc_cat=100&_nc_oc=AQnPmGJF0FwOzhRgvkGkgt4eIPEs2RmO27O9NRUcrAesAa64j0xIN7OhkY70WDAJpBrVMWDt2G5JG3ZPogNnKHky&_nc_ht=scontent.fcgh7-1.fna&oh=02b16aecd0e84d87cc294e0839588e2a&oe=5E23420A",
             frame: "Colnago Track",
             fork: "Colnago Fork",
-            rims: "Colnago Rim",
+            rins: "Colnago Rim",
             hubs: "Colnago Hubs",
         },
 
