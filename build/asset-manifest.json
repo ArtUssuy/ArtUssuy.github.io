@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.7952db17.chunk.css",
+    "main.js": "/build/static/js/main.7dd990b4.chunk.js",
+    "main.js.map": "/build/static/js/main.7dd990b4.chunk.js.map",
+    "runtime-main.js": "/build/static/js/runtime-main.f96ea02f.js",
+    "runtime-main.js.map": "/build/static/js/runtime-main.f96ea02f.js.map",
+    "static/js/2.d2b715a8.chunk.js": "/build/static/js/2.d2b715a8.chunk.js",
+    "static/js/2.d2b715a8.chunk.js.map": "/build/static/js/2.d2b715a8.chunk.js.map",
+    "index.html": "/build/index.html",
+    "precache-manifest.a16bdcc7515cb99952d1bbeb3dc5d283.js": "/build/precache-manifest.a16bdcc7515cb99952d1bbeb3dc5d283.js",
+    "service-worker.js": "/build/service-worker.js",
+    "static/css/main.7952db17.chunk.css.map": "/build/static/css/main.7952db17.chunk.css.map",
+    "static/media/styles.scss": "/build/static/media/calibri-bold-2.2b9ea546.ttf"
+  }
+}
