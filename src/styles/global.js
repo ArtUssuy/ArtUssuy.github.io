@@ -8,6 +8,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
         :focus {
             outline: 0;
+            border: 0;
         }
     }
     html, body, #root {

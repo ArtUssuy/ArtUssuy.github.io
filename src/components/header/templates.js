@@ -5,4 +5,5 @@ export const Options = styled.span`
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 20px;
+    margin-left: 10px;
 `;

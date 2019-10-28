@@ -7,6 +7,14 @@ import "./styles.scss";
 
 const LeftMenu = () => {
   const [display, setDisplay] = useState(false);
+  const [optionDisplayed, setOptionDisplayed] = useState("Projects");
+
+  const options = [
+    "Recentes",
+    "Fixed Gear",
+    "Skateboard",
+    "Front End",
+  ]
 
   return (
     <>
@@ -16,20 +24,25 @@ const LeftMenu = () => {
           style={{ cursor: "pointer" }}
           onClick={() => setDisplay(!display)}
         />
-        <Options>Projects</Options>
+        {
+
+        }
+        <Options>{optionDisplayed}</Options>
 
         <nav
           className={`leftMenu ${display ? "showLeftMenu" : "hideLeftMenu"}`}
         >
           <ul>
-            <li>Projects</li>
-            <li>About Me</li>
+            {
+              options.map( option => <li onClick={() => setOptionDisplayed(option)}>{option}</li>)
+            }
           </ul>
         </nav>
       </div>
 
       <OpacScreen
         className={`${display ? "showOpacScreen" : "hideOpacScreen"}`}
+        onClick={() => setDisplay(!display)}
       ></OpacScreen>
     </>
   );
