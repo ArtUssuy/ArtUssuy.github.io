@@ -34,7 +34,7 @@ const LeftMenu = () => {
         >
           <ul>
             {
-              options.map( option => <li onClick={() => setOptionDisplayed(option)}>{option}</li>)
+              options.map( option => <li key={option} onClick={() => setOptionDisplayed(option)}>{option}</li>)
             }
           </ul>
         </nav>

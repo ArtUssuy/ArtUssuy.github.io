@@ -1,3 +1,5 @@
+@import "./../../../styles/fonts";
+
 .titles-wrapper {
   z-index: 2;
   display: flex;
@@ -24,6 +26,7 @@
             timing-function: linear;
             delay: 300ms * random(11);
           }
+          font-family: "Calibri Bold";
         }
       }
     }
@@ -31,6 +34,7 @@
   #subtitle {
     li {
       animation: subtitle 40s linear 2s;
+      font-family: "Calibri Regular";
     }
   }
 }

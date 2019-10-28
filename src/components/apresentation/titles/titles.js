@@ -20,15 +20,15 @@ const Titles = () => {
         </ul>
 
         <ul id="subtitle">
-          <li>F</li>
-          <li>I</li>
-          <li>X</li>
-          <li>E</li>
-          <li>D</li>
-          <li>G</li>
-          <li>E</li>
-          <li>A</li>
+          <li>P</li>
+          <li>O</li>
           <li>R</li>
+          <li>T</li>
+          <li>F</li>
+          <li>O</li>
+          <li>L</li>
+          <li>I</li>
+          <li>O</li>
         </ul>
       </div>
     </>

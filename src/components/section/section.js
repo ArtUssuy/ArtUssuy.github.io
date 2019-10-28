@@ -48,7 +48,7 @@ const Section = () => {
         {
             sections.map( section => {
                 return (
-                    <SectionWrapper>
+                    <SectionWrapper key={section}>
                         <Title>{section}:</Title>
                         <ContentWrapper>
                         {
