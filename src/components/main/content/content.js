@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from "./card/card";
+import Card from "./../../card/card";
 import "./styles.scss";
 
 const Content = () => {
@@ -39,11 +39,13 @@ const Content = () => {
     ]
 
     return (
-        <main className="main">
-            {
-                bikes.map((bike, index) => <Card bike={bike} key={index}/>)
-            }
-        </main>
+        <div className="main-wrapper">
+            <main className="main">
+                {
+                    bikes.map((bike, index) => <Card bike={bike} key={index}/>)
+                }
+            </main>
+        </div>
     )
 }
 

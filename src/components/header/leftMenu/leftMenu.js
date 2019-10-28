@@ -30,6 +30,7 @@ const LeftMenu = () => {
 
       <OpacScreen
         className={`${display ? "showOpacScreen" : "hideOpacScreen"}`}
+        onClick={() => setDisplay(!display)}
       ></OpacScreen>
     </>
   );
