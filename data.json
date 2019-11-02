@@ -29,6 +29,16 @@
         "rims": "Mavic Open Sport",
         "hubs": "Grancompe"
       }
+    },
+    {
+      "id": "03",
+      "name": "Giant Ominium",
+      "photo": "https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-9/24232018_463782587349071_7478485412403831108_n.jpg?_nc_cat=109&_nc_oc=AQnFWu95r03uvgtJlOaB_shA7CB2X0sobcr2mx8-BPjTucZRgkFgu1Ch_rTLo8u-VjtMv6EGVK9g5jvMoKV_hWR8&_nc_ht=scontent.fcgh7-1.fna&oh=870cd5e1e7652d59ff8414fa75347e05&oe=5E5A09DD",
+      "description": {
+        "fork": "Carbon Fork",
+        "rims": "Mavic Open Sport",
+        "hubs": "Grancompe"
+      }
     }
   ],
   "DEVELOPMENT": [

@@ -47,7 +47,6 @@ const Section = () => {
   return (
     <>
       <SectionWrapper key={section}>
-        <Title>{section}:</Title>
         <ContentWrapper>
           {data
             ? data.map(content => <Card content={content} key={content.id} />)
