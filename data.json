@@ -1,0 +1,54 @@
+{
+  "PHOTOGRAPH": [
+    {
+      "id": "01",
+      "name": "Langster Street",
+      "photo": "https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-9/67782891_2242043462557863_3920991771844149248_n.jpg?_nc_cat=110&_nc_oc=AQlbcviICEIY5cW00Ol9JKsE0iTre82wpV1LLj03h28yTGrnO_47VPj0KZGgkH6HkF8&_nc_ht=scontent.fcgh7-1.fna&oh=16246196b363135bc55c4b9ad9854317&oe=5E1B1E90",
+      "description": {
+        "fork": "Factory Carbon",
+        "rims": "Mavic Open Sport",
+        "hubs": "Grancompe"
+      }
+    },
+    {
+      "id": "02",
+      "name": "Airwalk Vintage",
+      "photo": "https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-9/66531973_1928529323915578_2525649037307150336_n.jpg?_nc_cat=104&_nc_oc=AQk-tXfMySN8gb94W25mx5ejGHLY61V8-9_l5FF0b-9SAm3RwJbBC9flR4hOm52UVqU&_nc_ht=scontent.fcgh7-1.fna&oh=92d1eb702e67aafffd01b3b228f9af72&oe=5E627377",
+      "description": {
+        "fork": "Airwalk Steel",
+        "rims": "Vzan Spin",
+        "hubs": "Grancompe"
+      }
+    },
+    {
+      "id": "03",
+      "name": "Colossi Al Colossione",
+      "photo": "https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-9/10310095_1641715186093799_5388089312420026810_n.jpg?_nc_cat=108&_nc_oc=AQm7Qbra2SSPAi6IUn7B0p9yJsFAsRBedy68uu55BN2aeWb0hFp5QO6OQ2kxkImeGkAoFQ2E8_OnP39ljHcYHTdV&_nc_ht=scontent.fcgh7-1.fna&oh=45f9d8b82246cbd51ea20903a3c215a9&oe=5E5F767F",
+      "description": {
+        "fork": "Carbon Fork",
+        "rims": "Mavic Open Sport",
+        "hubs": "Grancompe"
+      }
+    }
+  ],
+  "DEVELOPMENT": [
+    {
+      "id": "01",
+      "name": "CargoCred",
+      "photo": "https://i.ibb.co/KGDjPmL/Screen-Shot-2019-11-02-at-11-39-35.png",
+      "description": {
+        "url": "https://app.cargocred.com.br/front-cargocred-home/",
+        "description": "Fusce vel libero dictum, feugiat orci sed, mattis metus. Cras ut turpis ipsum. Fusce nunc mi, congue sed nulla non, volutpat luctus est.In nec imperdiet leo, at consectetur neque. Quisque euismod magna risus, et laoreet eros gravida sed. In nec imperdiet leo, at consectetur neque. Quisque euismod magna risus, et laoreet eros gravida sed. In nec imperdiet leo, at consectetur neque. Quisque euismod magna risus, et laoreet eros gravida sed."
+      }
+    },
+    {
+      "id": "02",
+      "name": "Real Estate",
+      "photo": "https://i.ibb.co/Wgbqd0L/Screen-Shot-2019-11-02-at-11-43-19.png",
+      "description": {
+        "url": "http://realestate.captalys.com.br/parceiros/",
+        "description": "Vivamus egestas laoreet justo, in pulvinar diam lobortis at. Nulla at libero molestie, blandit lacus id, viverra diam. Proin ac magna a sem pulvinar posuere. Pellentesque pulvinar luctus lorem, vitae condimentum leo semper sit amet. Sed condimentum, dui sit amet porttitor consectetur, dolor lectus ultricies nisi, nec mollis purus urna vitae nisl. Aenean imperdiet massa eros, non viverra lorem auctor a. Nulla facilisi."
+      }
+    }
+  ]
+}

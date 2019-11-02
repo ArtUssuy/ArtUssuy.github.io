@@ -15,7 +15,7 @@ const LeftMenu = () => {
   const [display, setDisplay] = useState(false);
   const [optionDisplayed, setOptionDisplayed] = useState("Recentes");
 
-  const options = ["Recentes", "Fixed Gear", "Skateboard", "Front End"];
+  const options = ["Recentes", "Photograph", "Development"];
 
   return (
     <>
