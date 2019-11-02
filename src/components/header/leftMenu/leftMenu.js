@@ -13,9 +13,13 @@ const LeftMenu = () => {
   const dispatch = useDispatch();
 
   const [display, setDisplay] = useState(false);
-  const [optionDisplayed, setOptionDisplayed] = useState("Recentes");
 
   const options = ["Recentes", "Photograph", "Development"];
+
+  const handleClick = option => {
+    setDisplay(!display);
+    dispatch(changePage(option));
+  };
 
   return (
     <>
@@ -33,7 +37,7 @@ const LeftMenu = () => {
         >
           <ul>
             {options.map(option => (
-              <li key={option} onClick={() => dispatch(changePage(option))}>
+              <li key={option} onClick={() => handleClick(option)}>
                 {option}
               </li>
             ))}
