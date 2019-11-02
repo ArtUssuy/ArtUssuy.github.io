@@ -3,18 +3,19 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Options } from "../templates";
 import { OpacScreen } from "./styles";
+import { useSelector, useDispatch } from "react-redux";
+import changePage from "./../../../actions/index";
+
 import "./styles.scss";
 
 const LeftMenu = () => {
-  const [display, setDisplay] = useState(false);
-  const [optionDisplayed, setOptionDisplayed] = useState("Projects");
+  const page = useSelector(state => state.changePage);
+  const dispatch = useDispatch();
 
-  const options = [
-    "Recentes",
-    "Fixed Gear",
-    "Skateboard",
-    "Front End",
-  ]
+  const [display, setDisplay] = useState(false);
+  const [optionDisplayed, setOptionDisplayed] = useState("Recentes");
+
+  const options = ["Recentes", "Photograph", "Development"];
 
   return (
     <>
@@ -24,18 +25,18 @@ const LeftMenu = () => {
           style={{ cursor: "pointer" }}
           onClick={() => setDisplay(!display)}
         />
-        {
-
-        }
-        <Options>{optionDisplayed}</Options>
+        {}
+        <Options>{page}</Options>
 
         <nav
           className={`leftMenu ${display ? "showLeftMenu" : "hideLeftMenu"}`}
         >
           <ul>
-            {
-              options.map( option => <li key={option} onClick={() => setOptionDisplayed(option)}>{option}</li>)
-            }
+            {options.map(option => (
+              <li key={option} onClick={() => dispatch(changePage(option))}>
+                {option}
+              </li>
+            ))}
           </ul>
         </nav>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.scss";
 
 const Titles = () => {
+
   return (
     <>
       <div className="titles-wrapper">
