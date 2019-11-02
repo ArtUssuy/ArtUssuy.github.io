@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.09daccb2.chunk.css",
-    "main.js": "/build/static/js/main.f97b3ec3.chunk.js",
-    "main.js.map": "/build/static/js/main.f97b3ec3.chunk.js.map",
+    "main.css": "/build/static/css/main.2e1cde98.chunk.css",
+    "main.js": "/build/static/js/main.9eab22f5.chunk.js",
+    "main.js.map": "/build/static/js/main.9eab22f5.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.f96ea02f.js",
     "runtime-main.js.map": "/build/static/js/runtime-main.f96ea02f.js.map",
-    "static/js/2.a4b55461.chunk.js": "/build/static/js/2.a4b55461.chunk.js",
-    "static/js/2.a4b55461.chunk.js.map": "/build/static/js/2.a4b55461.chunk.js.map",
+    "static/js/2.2c1b174d.chunk.js": "/build/static/js/2.2c1b174d.chunk.js",
+    "static/js/2.2c1b174d.chunk.js.map": "/build/static/js/2.2c1b174d.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.b11719281aef63a780cca9ba56190fe5.js": "/build/precache-manifest.b11719281aef63a780cca9ba56190fe5.js",
+    "precache-manifest.cad702fa8cd87f152cc400377665d817.js": "/build/precache-manifest.cad702fa8cd87f152cc400377665d817.js",
     "service-worker.js": "/build/service-worker.js",
-    "static/css/main.09daccb2.chunk.css.map": "/build/static/css/main.09daccb2.chunk.css.map",
+    "static/css/main.2e1cde98.chunk.css.map": "/build/static/css/main.2e1cde98.chunk.css.map",
     "static/media/styles.scss": "/build/static/media/calibri-bold-2.2b9ea546.ttf"
   }
 }
