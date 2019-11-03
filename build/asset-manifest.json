@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/build/static/css/main.2e1cde98.chunk.css",
-    "main.js": "/build/static/js/main.73b9773b.chunk.js",
-    "main.js.map": "/build/static/js/main.73b9773b.chunk.js.map",
+    "main.js": "/build/static/js/main.e0f8cdff.chunk.js",
+    "main.js.map": "/build/static/js/main.e0f8cdff.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.f96ea02f.js",
     "runtime-main.js.map": "/build/static/js/runtime-main.f96ea02f.js.map",
-    "static/js/2.5d1e30b1.chunk.js": "/build/static/js/2.5d1e30b1.chunk.js",
-    "static/js/2.5d1e30b1.chunk.js.map": "/build/static/js/2.5d1e30b1.chunk.js.map",
+    "static/js/2.b71f835a.chunk.js": "/build/static/js/2.b71f835a.chunk.js",
+    "static/js/2.b71f835a.chunk.js.map": "/build/static/js/2.b71f835a.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.0e80448ee0db87415fbf40cb5b8bdb8d.js": "/build/precache-manifest.0e80448ee0db87415fbf40cb5b8bdb8d.js",
+    "precache-manifest.c306f127c2c0d72ad9983bde9256ecfb.js": "/build/precache-manifest.c306f127c2c0d72ad9983bde9256ecfb.js",
     "service-worker.js": "/build/service-worker.js",
     "static/css/main.2e1cde98.chunk.css.map": "/build/static/css/main.2e1cde98.chunk.css.map",
     "static/media/styles.scss": "/build/static/media/calibri-bold-2.2b9ea546.ttf"
