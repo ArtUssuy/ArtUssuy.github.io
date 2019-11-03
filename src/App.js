@@ -9,8 +9,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      {display ? <Main /> : <Main />}
-      <button onClick={() => setDisplay(false)}>CLICK HERE</button>
+      <Main />
     </>
   );
 };
