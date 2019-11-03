@@ -1,11 +1,10 @@
 import React from "react";
 
-import { Title, ContentWrapper, SectionWrapper } from "./styles";
+import { ContentWrapper, SectionWrapper } from "./styles";
 import Card from "./card/card";
 import { useState, useEffect } from "react";
 import { getPhotograph, getDevelopment } from "./../../services/get";
 import { useSelector } from "react-redux";
-import changePage from "../../actions";
 
 const Section = () => {
   const page = useSelector(state => state.changePage);
@@ -15,7 +14,6 @@ const Section = () => {
   useEffect(() => {
     getSection();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    console.log(page);
   }, [page]);
 
   const photograph = async () => {

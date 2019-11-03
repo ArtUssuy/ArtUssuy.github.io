@@ -31,7 +31,7 @@
       }
     },
     {
-      "id": "03",
+      "id": "04",
       "name": "Giant Ominium",
       "photo": "https://scontent.fcgh7-1.fna.fbcdn.net/v/t1.0-9/24232018_463782587349071_7478485412403831108_n.jpg?_nc_cat=109&_nc_oc=AQnFWu95r03uvgtJlOaB_shA7CB2X0sobcr2mx8-BPjTucZRgkFgu1Ch_rTLo8u-VjtMv6EGVK9g5jvMoKV_hWR8&_nc_ht=scontent.fcgh7-1.fna&oh=870cd5e1e7652d59ff8414fa75347e05&oe=5E5A09DD",
       "description": {
@@ -44,7 +44,7 @@
   "DEVELOPMENT": [
     {
       "id": "01",
-      "name": "CargoCred",
+      "name": "Cargocred",
       "photo": "https://i.ibb.co/KGDjPmL/Screen-Shot-2019-11-02-at-11-39-35.png",
       "description": {
         "url": "https://app.cargocred.com.br/front-cargocred-home/",
@@ -57,6 +57,24 @@
       "photo": "https://i.ibb.co/Wgbqd0L/Screen-Shot-2019-11-02-at-11-43-19.png",
       "description": {
         "url": "http://realestate.captalys.com.br/parceiros/",
+        "description": "Vivamus egestas laoreet justo, in pulvinar diam lobortis at. Nulla at libero molestie, blandit lacus id, viverra diam. Proin ac magna a sem pulvinar posuere. Pellentesque pulvinar luctus lorem, vitae condimentum leo semper sit amet. Sed condimentum, dui sit amet porttitor consectetur, dolor lectus ultricies nisi, nec mollis purus urna vitae nisl. Aenean imperdiet massa eros, non viverra lorem auctor a. Nulla facilisi."
+      }
+    },
+    {
+      "id": "03",
+      "name": "Consultor Mais Saúde",
+      "photo": "https://i.ibb.co/YjVNjNs/Screen-Shot-2019-11-02-at-20-24-52.png",
+      "description": {
+        "url": "http://maissaudecredito.com.br/consultor/",
+        "description": "Vivamus egestas laoreet justo, in pulvinar diam lobortis at. Nulla at libero molestie, blandit lacus id, viverra diam. Proin ac magna a sem pulvinar posuere. Pellentesque pulvinar luctus lorem, vitae condimentum leo semper sit amet. Sed condimentum, dui sit amet porttitor consectetur, dolor lectus ultricies nisi, nec mollis purus urna vitae nisl. Aenean imperdiet massa eros, non viverra lorem auctor a. Nulla facilisi."
+      }
+    },
+    {
+      "id": "04",
+      "name": "Mais Saúde",
+      "photo": "https://i.ibb.co/xs1kpMz/Screen-Shot-2019-11-02-at-20-35-04.png",
+      "description": {
+        "url": "http://maissaudecredito.com.br/",
         "description": "Vivamus egestas laoreet justo, in pulvinar diam lobortis at. Nulla at libero molestie, blandit lacus id, viverra diam. Proin ac magna a sem pulvinar posuere. Pellentesque pulvinar luctus lorem, vitae condimentum leo semper sit amet. Sed condimentum, dui sit amet porttitor consectetur, dolor lectus ultricies nisi, nec mollis purus urna vitae nisl. Aenean imperdiet massa eros, non viverra lorem auctor a. Nulla facilisi."
       }
     }
