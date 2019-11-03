@@ -14,7 +14,7 @@ const LeftMenu = () => {
 
   const [display, setDisplay] = useState(false);
 
-  const options = ["Recentes", "Photograph", "Development"];
+  const options = ["Development"];
 
   const handleClick = option => {
     setDisplay(!display);
