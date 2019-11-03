@@ -1,4 +1,4 @@
-const ChangePageReducer = (page = "Recentes", action) => {
+const ChangePageReducer = (page = "Development", action) => {
   switch (action.type) {
     case "CHANGEPAGE":
       page = action.page;
